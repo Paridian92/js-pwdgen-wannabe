@@ -5,4 +5,4 @@ const random = Math.floor(Math.random() * 500);
 var notSafePsw = userName + userSurname + prefColor + random;
 
 
-document.getElementById('createdpsw').innerHTML = "Ciao! la tua non sicurissima nuova password e:" + notSafePsw;
+document.getElementById('createdpsw').innerHTML = "Ciao! la tua non sicurissima nuova password e: " + notSafePsw;
